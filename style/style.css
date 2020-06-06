@@ -4,13 +4,14 @@
 }
 body{
     background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 nav{
     position: fixed;
     width: 100%;
     height: 100px;
-    padding: 20px 50px;
+    padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,8 +38,9 @@ nav ul li a{
     transition: all 0.5s;
 }
 nav.active{
-    background-color: rgb(39, 39, 39);
+    background-color:hsl(208, 92%, 14%);
     height: 60px;
+    padding: 20px 50px;
 }
 nav.active ul{
     width: 40%;
@@ -54,9 +56,30 @@ nav.active .logo img{
 .hero .top-build{
     height: 100vh;
     background-repeat: no-repeat;
-    background-image: url('https://images.unsplash.com/photo-1587613725874-d9a1e8e23f6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1528&q=80');
+    background-color: #0093E9;
+    background-image: linear-gradient(201deg, #0093E9 0%, #80D0C7 100%);
+    color: white;
+    padding: 250px 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
 
 }
+.hero .top-build h1{
+    font-size: 50px;
+}
+.top-build img{
+min-height: 400px;
+}
+.top-build hr{
+    margin-top: 5px;
+    height: 5px;
+    border: none;
+    background-color: #ffffff;
+    width: 550px;
+    opacity: 0.8;
+}
+
 .hero .top-text{
     padding: 0 100px;
     line-height: 2em;
